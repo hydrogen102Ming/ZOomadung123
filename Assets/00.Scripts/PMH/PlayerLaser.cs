@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerLaser : MonoBehaviour
 {
-<<<<<<< Updated upstream
     [SerializeField] private LineRenderer playerLaser;
     [SerializeField] private GameObject mainCam;
 
@@ -32,11 +31,11 @@ public class PlayerLaser : MonoBehaviour
     {
         Gizmos.color = Color.green;
         Gizmos.DrawRay(mainCam.transform.position, transform.forward * laserDistance);
-=======
+    }
+
     private void Awake()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
->>>>>>> Stashed changes
     }
 }
