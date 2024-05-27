@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1001 &402450120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -180,6 +181,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e63f970932e56649b966445efd75396, type: 3}
+=======
+>>>>>>> Stashed changes
 --- !u!114 &723028686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,7 +227,7 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
---- !u!1 &825458539
+--- !u!1 &967119037
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -232,9 +235,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 825458542}
-  - component: {fileID: 825458541}
-  - component: {fileID: 825458540}
+  - component: {fileID: 967119040}
+  - component: {fileID: 967119039}
+  - component: {fileID: 967119038}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -242,13 +245,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!154 &825458540
+--- !u!154 &967119038
 TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825458539}
+  m_GameObject: {fileID: 967119037}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -260,18 +263,18 @@ TerrainCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_TerrainData: {fileID: 15600000, guid: 8dfa207f11b526a40bf660d6dc3f60e6, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 279e8054b0097c9488b2bd9fbf371554, type: 2}
   m_EnableTreeColliders: 1
---- !u!218 &825458541
+--- !u!218 &967119039
 Terrain:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825458539}
+  m_GameObject: {fileID: 967119037}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: 8dfa207f11b526a40bf660d6dc3f60e6, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 279e8054b0097c9488b2bd9fbf371554, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -301,13 +304,13 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
---- !u!4 &825458542
+--- !u!4 &967119040
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825458539}
+  m_GameObject: {fileID: 967119037}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -443,7 +446,7 @@ Transform:
   m_GameObject: {fileID: 8943498895119467584}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 108.57, y: 0, z: 96.64}
+  m_LocalPosition: {x: 150, y: 0, z: 150}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -490,7 +493,7 @@ Transform:
   m_GameObject: {fileID: 5592274848048657156}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0.4}
+  m_LocalPosition: {x: 0, y: 1.2, z: 0.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -940,7 +943,7 @@ Transform:
   m_GameObject: {fileID: 5593195909740250527}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 107.94, y: 0.5, z: 87.54}
+  m_LocalPosition: {x: 143.25, y: 0, z: 145.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1200,7 +1203,6 @@ GameObject:
   - component: {fileID: 5593195909740222911}
   - component: {fileID: 5593195909747652177}
   - component: {fileID: 5593195910014459369}
-  - component: {fileID: 5593195910014459376}
   - component: {fileID: 5593195910014459374}
   - component: {fileID: 5593195910014459375}
   m_Layer: 0
@@ -1497,13 +1499,13 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 2.4
+  m_Height: 2.39
   m_Radius: 0.7
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.4, z: -0.1}
+  m_Center: {x: 0, y: 1.2, z: -0.1}
 --- !u!114 &5593195910014459374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1519,6 +1521,13 @@ MonoBehaviour:
   speed: 7
   turnSpeed: 300
   gravity: 20
+<<<<<<< Updated upstream
+=======
+  jumpForce: 8
+  looksensitivity: 1
+  cameraRotationLimit: 60
+  theCamera: {fileID: 5608799411018482892}
+>>>>>>> Stashed changes
 --- !u!114 &5593195910014459375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1528,9 +1537,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5593195909740250527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03fc6587cf484f340b59f2752f189593, type: 3}
+  m_Script: {fileID: 11500000, guid: a37e57d1eefd19345999d0a30acfdeca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   playerLaser: {fileID: 0}
   mainCam: {fileID: 5592274848048657156}
   laserDistance: 4
@@ -1564,6 +1574,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+=======
+>>>>>>> Stashed changes
 --- !u!20 &5608799411018482892
 Camera:
   m_ObjectHideFlags: 0
@@ -1595,8 +1607,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
+  near clip plane: 0.03
+  far clip plane: 200
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -2759,7 +2771,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1297650182}
-  - {fileID: 825458542}
   - {fileID: 5593195909740222911}
   - {fileID: 3465647009145068480}
-  - {fileID: 402450120}
+  - {fileID: 967119040}

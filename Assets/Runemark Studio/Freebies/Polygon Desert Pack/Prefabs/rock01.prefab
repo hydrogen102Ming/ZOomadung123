@@ -11,7 +11,11 @@ GameObject:
   - component: {fileID: 481916}
   - component: {fileID: 3346354}
   - component: {fileID: 2358560}
+<<<<<<< Updated upstream
   m_Layer: 6
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,8 +96,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 431854}
+<<<<<<< Updated upstream
   - component: {fileID: 9038365636585328207}
   m_Layer: 6
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: rock01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,6 +124,7 @@ Transform:
   - {fileID: 481916}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!65 &9038365636585328207
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -137,3 +146,5 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.4352493, y: 3.5816686, z: 2.2083817}
   m_Center: {x: 0.121349335, y: 1.2908343, z: 0.7513237}
+=======
+>>>>>>> Stashed changes
