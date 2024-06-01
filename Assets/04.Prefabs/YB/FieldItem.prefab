@@ -147,4 +147,5 @@ MonoBehaviour:
     itemType: 0
     itemName: 
     itemSprite: {fileID: 0}
+    itemEffect: []
   image: {fileID: 5192177365257454415}

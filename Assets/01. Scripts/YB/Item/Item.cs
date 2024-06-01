@@ -6,16 +6,17 @@ public enum ItemType
 {
     Iron,
     Diamond,
-    Gold
+    Gold,
+    Rock
 }
 
 [System.Serializable]
 public class Item
 {
-    public ItemType itemType;   
+    public ItemType itemType;
     public string itemName;
     public Sprite itemSprite;
-    
+
     public List<ItemEffect> itemEffect;
 
     public bool Use()
