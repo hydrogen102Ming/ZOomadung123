@@ -21,10 +21,15 @@ namespace AstronautPlayer
         private float currentCameraRotationX;
         [SerializeField] private Camera theCamera;
 
+        private Crosshair theCrosshair;
+
+        private bool isWalk = false;
+
         void Start()
         {
             controller = GetComponent<CharacterController>();
             anim = gameObject.GetComponentInChildren<Animator>();
+            theCrosshair = FindObjectOfType<Crosshair>();
         }
 
         void Update()
@@ -58,6 +63,8 @@ namespace AstronautPlayer
 
             float horizontalInput = Input.GetAxis("Horizontal");
             transform.Rotate(0, horizontalInput * turnSpeed * Time.deltaTime, 0);
+
+            //theCrosshair.WalkingAnimation(isWalk);
         }
 
         private void CameraRotation()
