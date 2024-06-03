@@ -1,0 +1,25 @@
+ 
+
+
+  Hello there! thanks for downloading!
+
+  This is just a very simple template for spell and items cards, so there aren't 
+  a lot of advices to give here, but to be sure:
+
+   - the "empty back" files are there if you want the backside of the card to match the 
+     frame of the front, but you are free to not use them, or to customize them how you 
+     prefere, like with logos or other illustrations/symbols. 
+
+   - for a better experience holding these cards in hand i recommend printing on thick 
+     paper, or to attach the printed sheet onto thin cardboard and then cut all the cards. 
+     that way at least will feel nice to hold. that said, i've put here the black and white
+     files if you want to use normal paper and keep neat small reminder sheets around. 
+
+   - the symbols on the spells cards are: the hourglass is duration, the crosshair is range, 
+     A, BA and R are the casting time (action, bonus action and reaction), the C is for 
+     concentration. 
+
+
+
+  nothing more to say here, i hope you enjoy them, let me know!
+     
