@@ -8993,7 +8993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4423717866760290}
   - component: {fileID: 20434830277144118}
-  - component: {fileID: 5145891834995690789}
+  - component: {fileID: -5879615717999314842}
   m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
@@ -9068,7 +9068,7 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &5145891834995690789
+--- !u!114 &-5879615717999314842
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

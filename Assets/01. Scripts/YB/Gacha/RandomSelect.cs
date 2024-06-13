@@ -16,7 +16,7 @@ public class RandomSelect : MonoBehaviour
         ResultSelect();
     }
 
-    public List<Card> result = new List<Card>();  
+    public List<Card> result = new List<Card>();
 
     public Transform parent;
     public GameObject cardprefab;

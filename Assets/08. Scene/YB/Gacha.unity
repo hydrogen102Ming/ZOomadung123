@@ -821,7 +821,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1379438410
 RectTransform:
   m_ObjectHideFlags: 0
@@ -907,6 +907,37 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1842617541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1842617542}
+  m_Layer: 0
+  m_Name: ParticleEffectPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1842617542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842617541}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2034170352
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,30 +973,41 @@ MonoBehaviour:
     cardSkill: "\uC77C\uC815 \uC2DC\uAC04 \uB3D9\uC548 \uC774\uB3D9 \uC18D\uB3C4\uC640
       \uACF5\uACA9\uB825\uC774 \uAC10\uC18C\uB41C\uB2E4."
     weight: 5
+    particleEffectPrefab: {fileID: 6702948410531651272, guid: b814b02c8b1ed6f40aab543a66bb9290,
+      type: 3}
   - cardName: "\uBD89\uC740 \uBA3C\uC9C0"
     cardImage: {fileID: 21300000, guid: e17105374b8e0bc458185ece30762ea3, type: 3}
     cardSkill: "\uBA3C\uC9C0 \uC18D\uC5D0 \uAC07\uD78C \uC801\uB4E4\uC740 \uBC29\uD5A5
       \uAC10\uAC01\uC744 \uC783\uC2B5\uB2C8\uB2E4."
     weight: 5
+    particleEffectPrefab: {fileID: 6702948410531651272, guid: b814b02c8b1ed6f40aab543a66bb9290,
+      type: 3}
   - cardName: "\uD0DC\uC591\uD48D"
     cardImage: {fileID: 21300000, guid: 206191f99f7c39641acc95817e26f78f, type: 3}
     cardSkill: "\uC801\uB4E4\uC740 \uD654\uC0C1 \uB300\uBBF8\uC9C0\uB97C \uC785\uAC8C
       \uB429\uB2C8\uB2E4."
     weight: 5
+    particleEffectPrefab: {fileID: 6702948410531651272, guid: b814b02c8b1ed6f40aab543a66bb9290,
+      type: 3}
   - cardName: "\uC6B4\uC11D \uAC15\uD0C0"
     cardImage: {fileID: 21300000, guid: 50510fe0deb06a348a7c5e40cfa88f4b, type: 3}
     cardSkill: "\uB5A8\uC5B4\uC9C4 \uCDA9\uACA9\uD30C\uC5D0 \uC758\uD574 \uB109\uBC31
       \uD6A8\uACFC\uB97C \uBC1B\uC2B5\uB2C8\uB2E4."
     weight: 5
+    particleEffectPrefab: {fileID: 6702948410531651272, guid: b814b02c8b1ed6f40aab543a66bb9290,
+      type: 3}
   - cardName: "\uC911\uB825 \uC6B0\uBB3C"
     cardImage: {fileID: 21300000, guid: f5a7c55405436ce49a6fa02e4af6e2b8, type: 3}
     cardSkill: "\uC801\uB4E4\uC758 \uC774\uB3D9 \uC18D\uB3C4\uB97C \uD06C\uAC8C \uAC10\uC18C\uC2DC\uD0B5\uB2C8\uB2E4."
     weight: 5
+    particleEffectPrefab: {fileID: 6702948410531651272, guid: b814b02c8b1ed6f40aab543a66bb9290,
+      type: 3}
   total: 0
-  result: []
   parent: {fileID: 1115616287}
   cardprefab: {fileID: 878384543158946410, guid: 75cb612308941fe4ca50b9b4244ad8a6,
     type: 3}
+  particleEffectParent: {fileID: 1842617542}
+  result: []
 --- !u!4 &2034170354
 Transform:
   m_ObjectHideFlags: 0
@@ -1478,3 +1520,4 @@ SceneRoots:
   - {fileID: 240775258}
   - {fileID: 166631582}
   - {fileID: 4415566953446282}
+  - {fileID: 1842617542}
